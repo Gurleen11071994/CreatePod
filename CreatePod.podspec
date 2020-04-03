@@ -1,8 +1,8 @@
 
 
 Pod::Spec.new do |s|
-  s.name             = 'CreatePod'
-  s.version          = '0.1'
+  s.name             = 'CreatePodGKGK'
+  s.version          = '0.2'
   s.summary          = 'By far I am learning pod creation. No joke.'
  
   s.description      = 'By far I am learning pod creation. No joke. This is learning.'

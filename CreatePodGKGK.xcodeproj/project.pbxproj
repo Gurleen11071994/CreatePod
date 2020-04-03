@@ -16,7 +16,7 @@
 
 /* Begin PBXFileReference section */
 		2E60D6612436FBA000C261DA /* CreatePod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePod.swift; sourceTree = "<group>"; };
-		2E826AB42436185D00FA7621 /* CreatePod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreatePod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E826AB42436185D00FA7621 /* CreatePodGKGK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreatePodGKGK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E826AB72436185D00FA7621 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E826AB92436185D00FA7621 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2E826ABB2436185D00FA7621 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		2E826AAB2436185D00FA7621 = {
 			isa = PBXGroup;
 			children = (
-				2E826AB62436185D00FA7621 /* CreatePod */,
+				2E826AB62436185D00FA7621 /* CreatePodGKGK */,
 				2E826AB52436185D00FA7621 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,12 +62,12 @@
 		2E826AB52436185D00FA7621 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2E826AB42436185D00FA7621 /* CreatePod.app */,
+				2E826AB42436185D00FA7621 /* CreatePodGKGK.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2E826AB62436185D00FA7621 /* CreatePod */ = {
+		2E826AB62436185D00FA7621 /* CreatePodGKGK */ = {
 			isa = PBXGroup;
 			children = (
 				2E7D551B24362FAB0020276E /* Pod */,
@@ -75,15 +75,15 @@
 				2E826AC02436185D00FA7621 /* CreatePod.xcdatamodeld */,
 				2E60D6612436FBA000C261DA /* CreatePod.swift */,
 			);
-			path = CreatePod;
+			path = CreatePodGKGK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2E826AB32436185D00FA7621 /* CreatePod */ = {
+		2E826AB32436185D00FA7621 /* CreatePodGKGK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2E826ACB2436185E00FA7621 /* Build configuration list for PBXNativeTarget "CreatePod" */;
+			buildConfigurationList = 2E826ACB2436185E00FA7621 /* Build configuration list for PBXNativeTarget "CreatePodGKGK" */;
 			buildPhases = (
 				2E826AB02436185D00FA7621 /* Sources */,
 				2E826AB12436185D00FA7621 /* Frameworks */,
@@ -93,9 +93,9 @@
 			);
 			dependencies = (
 			);
-			name = CreatePod;
+			name = CreatePodGKGK;
 			productName = CreatePod;
-			productReference = 2E826AB42436185D00FA7621 /* CreatePod.app */;
+			productReference = 2E826AB42436185D00FA7621 /* CreatePodGKGK.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2E826AAF2436185D00FA7621 /* Build configuration list for PBXProject "CreatePod" */;
+			buildConfigurationList = 2E826AAF2436185D00FA7621 /* Build configuration list for PBXProject "CreatePodGKGK" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -126,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2E826AB32436185D00FA7621 /* CreatePod */,
+				2E826AB32436185D00FA7621 /* CreatePodGKGK */,
 			);
 		};
 /* End PBXProject section */
@@ -297,12 +297,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = 6FXUMT5X23;
 				INFOPLIST_FILE = CreatePod/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cbl.CreatePod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -315,12 +317,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = 6FXUMT5X23;
 				INFOPLIST_FILE = CreatePod/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cbl.CreatePod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -331,7 +335,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2E826AAF2436185D00FA7621 /* Build configuration list for PBXProject "CreatePod" */ = {
+		2E826AAF2436185D00FA7621 /* Build configuration list for PBXProject "CreatePodGKGK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2E826AC92436185E00FA7621 /* Debug */,
@@ -340,7 +344,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2E826ACB2436185E00FA7621 /* Build configuration list for PBXNativeTarget "CreatePod" */ = {
+		2E826ACB2436185E00FA7621 /* Build configuration list for PBXNativeTarget "CreatePodGKGK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2E826ACC2436185E00FA7621 /* Debug */,

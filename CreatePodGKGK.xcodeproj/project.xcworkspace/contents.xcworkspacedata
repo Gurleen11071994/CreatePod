@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:CreatePod.xcodeproj">
+      location = "self:/Users/harminder/Desktop/CreatePod/CreatePodGKGK.xcodeproj">
    </FileRef>
 </Workspace>
