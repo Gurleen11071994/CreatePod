@@ -7,16 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2E826AB82436185D00FA7621 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E826AB72436185D00FA7621 /* AppDelegate.swift */; };
-		2E826ABA2436185D00FA7621 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E826AB92436185D00FA7621 /* SceneDelegate.swift */; };
-		2E826ABC2436185D00FA7621 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E826ABB2436185D00FA7621 /* ViewController.swift */; };
+		2E60D6622436FBA000C261DA /* CreatePod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E60D6612436FBA000C261DA /* CreatePod.swift */; };
+		2E7D551C24362FB80020276E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E826AB72436185D00FA7621 /* AppDelegate.swift */; };
 		2E826ABF2436185D00FA7621 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E826ABD2436185D00FA7621 /* Main.storyboard */; };
-		2E826AC22436185D00FA7621 /* CreatePod.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E826AC02436185D00FA7621 /* CreatePod.xcdatamodeld */; };
 		2E826AC42436185E00FA7621 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E826AC32436185E00FA7621 /* Assets.xcassets */; };
 		2E826AC72436185E00FA7621 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E826AC52436185E00FA7621 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E60D6612436FBA000C261DA /* CreatePod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePod.swift; sourceTree = "<group>"; };
 		2E826AB42436185D00FA7621 /* CreatePod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreatePod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E826AB72436185D00FA7621 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E826AB92436185D00FA7621 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +38,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E7D551B24362FAB0020276E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2E826AB72436185D00FA7621 /* AppDelegate.swift */,
+				2E826AB92436185D00FA7621 /* SceneDelegate.swift */,
+				2E826ABB2436185D00FA7621 /* ViewController.swift */,
+				2E826ABD2436185D00FA7621 /* Main.storyboard */,
+				2E826AC32436185E00FA7621 /* Assets.xcassets */,
+				2E826AC52436185E00FA7621 /* LaunchScreen.storyboard */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
 		2E826AAB2436185D00FA7621 = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +70,10 @@
 		2E826AB62436185D00FA7621 /* CreatePod */ = {
 			isa = PBXGroup;
 			children = (
-				2E826AB72436185D00FA7621 /* AppDelegate.swift */,
-				2E826AB92436185D00FA7621 /* SceneDelegate.swift */,
-				2E826ABB2436185D00FA7621 /* ViewController.swift */,
-				2E826ABD2436185D00FA7621 /* Main.storyboard */,
-				2E826AC32436185E00FA7621 /* Assets.xcassets */,
-				2E826AC52436185E00FA7621 /* LaunchScreen.storyboard */,
+				2E7D551B24362FAB0020276E /* Pod */,
 				2E826AC82436185E00FA7621 /* Info.plist */,
 				2E826AC02436185D00FA7621 /* CreatePod.xcdatamodeld */,
+				2E60D6612436FBA000C261DA /* CreatePod.swift */,
 			);
 			path = CreatePod;
 			sourceTree = "<group>";
@@ -141,10 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E826ABC2436185D00FA7621 /* ViewController.swift in Sources */,
-				2E826AC22436185D00FA7621 /* CreatePod.xcdatamodeld in Sources */,
-				2E826AB82436185D00FA7621 /* AppDelegate.swift in Sources */,
-				2E826ABA2436185D00FA7621 /* SceneDelegate.swift in Sources */,
+				2E7D551C24362FB80020276E /* AppDelegate.swift in Sources */,
+				2E60D6622436FBA000C261DA /* CreatePod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +226,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = CreatePod/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -274,6 +281,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = CreatePod/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
